@@ -1,0 +1,23 @@
+{
+  "name": "dust-glance",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:GoodNovember/dust-glance.git",
+  "author": "Victor Lawrence <madhatterblues@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch ./source/index.html -d ./build/ --public-url ./",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^1.8.3",
+    "electron-builder": "^20.3.1",
+    "electron-reload": "^1.2.2",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}
